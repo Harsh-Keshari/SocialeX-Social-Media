@@ -59,7 +59,7 @@ const [isUpdating, setIsUpdating] = useState(false);
 
   const fetchPosts = async () => {
     try {
-      const response = await axios.get('http://localhost:6001/fetchAllPosts');
+      const response = await axios.get('https://socialex-social-media.onrender.com/fetchAllPosts');
       const fetchedPosts = response.data;
       setPosts(fetchedPosts);
     } catch (error) {

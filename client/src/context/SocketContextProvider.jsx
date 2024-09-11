@@ -4,7 +4,7 @@ import socketIoClient from 'socket.io-client';
 
 export const SocketContext = createContext();
 
-const WS = 'http://localhost:6001';
+const WS = 'https://socialex-social-media.onrender.com';
 
 const socket = socketIoClient(WS);
 

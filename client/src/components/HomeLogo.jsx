@@ -28,7 +28,7 @@ const HomeLogo = () => {
   return (
     <div className="LogoSearch">
       <Link to="/"><img className='logoImg' src={logoimg} alt="" /></Link>
-       {/* <img className='logoImg' src={logoimg} alt="" /> */}
+       
        <div className="Search">
            <input type="text" placeholder='Search' onChange={(e)=> {setSearch(e.target.value)}} value={search} />
            <div className="s-icon" onClick={handleSearch}>
